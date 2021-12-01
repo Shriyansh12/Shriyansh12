@@ -1,0 +1,12 @@
+microservices:
+ - app1: auth user 
+   port: 9000
+   version: 1.0
+   deployed: on 
+
+ - app2: crt 
+   port: 9002
+   version:
+   - 1.9
+   - 3.8
+   - 3.9
