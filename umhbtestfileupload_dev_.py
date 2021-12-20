@@ -2,8 +2,8 @@ import boto3
 from botocore.exceptions import NoCredentialsError
 
 #UHMD user : data-umhb-stage
-ACCESS_KEY = 'AKIATMPC3B7DUDLRRN5P'
-SECRET_KEY = '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'
+ACCESS_KEY = 'XXXXX'
+SECRET_KEY = 'XXXX'
 
 
 def upload_to_aws(local_file, bucket, s3_file):
